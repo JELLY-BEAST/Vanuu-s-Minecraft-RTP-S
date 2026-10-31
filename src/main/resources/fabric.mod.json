@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "randomtp",
+  "version": "${version}",
+  "name": "Random Teleport",
+  "description": "Random safe teleportation in the Overworld and Nether.",
+  "authors": [
+    "jellybeast"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jellybeast.rtphomes.RtpHomesMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "fabric-api": "*"
+  }
+}
